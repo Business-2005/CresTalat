@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us - CresTalat</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Cairo', sans-serif;
+      background-color: #f3e6e9;
+      color: #3a2c2c;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      padding: 30px 15px 10px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3.5em;
+      color: #703b3f;
+    }
+
+    .nav-links {
+      margin: 10px 0 30px;
+    }
+
+    .nav-links a {
+      margin: 0 12px;
+      text-decoration: none;
+      font-size: 1em;
+      color: #703b3f;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      color: #9b5a5a;
+    }
+
+    .contact-section {
+      max-width: 700px;
+      margin: auto;
+      padding: 0 20px 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .contact-box {
+      background-color: #e3ccd2;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.2s ease;
+      cursor: pointer;
+    }
+
+    .contact-box:hover {
+      transform: translateY(-5px);
+      background-color: #d8bfc5;
+    }
+
+    .contact-box a {
+      color: #3a2c2c;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .contact-box i {
+      font-size: 1.6em;
+    }
+
+    footer {
+      background: rgba(255, 255, 255, 0.7);
+      padding: 20px;
+      text-align: center;
+      font-size: 0.95em;
+      color: #6b5050;
+      margin-top: auto;
+      box-shadow: 0 -4px 10px rgba(0,0,0,0.05);
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.5em;
+      }
+
+      .contact-box a {
+        font-size: 1em;
+      }
+
+      .contact-box i {
+        font-size: 1.4em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CresTalat</h1>
+
+    <nav class="nav-links">
+      <a href="home.html">Home</a>
+      <a href="contactUs.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <section class="contact-section">
+    <div class="contact-box">
+      <a href="https://wa.me/96103160645" target="_blank">
+        <i class="fab fa-whatsapp" style="color:#25D366;"></i> Contact us on WhatsApp
+      </a>
+    </div>
+
+    <div class="contact-box">
+      <a href="https://www.instagram.com/crestalat_resin" target="_blank">
+        <i class="fab fa-instagram" style="color:#E4405F;"></i> Follow us on Instagram
+      </a>
+    </div>
+
+    <div class="contact-box">
+      <a href="https://www.facebook.com/share/16ghzDFXBU/" target="_blank">
+        <i class="fab fa-facebook" style="color:#1877F2;"></i> Follow us on Facebook
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 CresTalat - All rights reserved | Handmade Creativity
+  </footer>
+
+</body>
+</html>

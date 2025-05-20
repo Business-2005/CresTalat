@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>تفاصيل المنتج - CresTalat</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      font-family: 'Cairo', sans-serif;
+      background-color: #f3e6e9;
+      color: #3a2c2c;
+    }
+
+    header {
+      padding: 30px 15px 15px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3.2em;
+      color: #703b3f;
+    }
+
+     .nav-links {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .nav-links a {
+      margin: 0 12px;
+      text-decoration: none;
+      font-size: 1em;
+      color: #703b3f;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      color: #9b5a5a;
+    }
+    .product-details {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    .product-details h2 {
+      margin-bottom: 15px;
+      color: #9b5a5a;
+    }
+
+    .product-details p {
+      margin-bottom: 30px;
+      font-size: 1em;
+      color: #5a4343;
+    }
+
+    .product-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 20px;
+    }
+
+    .product-gallery img {
+      width: 100%;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .product-gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Lightbox styles */
+    .lightbox {
+      display: none;
+      position: fixed;
+      z-index: 999;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .lightbox img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+
+    .lightbox:target {
+      display: flex;
+    }
+
+    .lightbox-close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 2em;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      background: rgba(255, 255, 255, 0.7);
+      padding: 20px;
+      text-align: center;
+      font-size: 0.95em;
+      color: #6b5050;
+      box-shadow: 0 -4px 10px rgba(0,0,0,0.05);
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CresTalat</h1>
+    <nav class="nav-links">
+      <a href="home.html">Home</a>
+      <a href="contactUs.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <section class="product-details">
+    <h2>Round Resin Keychain</h2>
+    <p>Custom Round Resin Keychain – 5 cm <br>
+Personalized 5 cm resin keychain with your chosen name or photo, in your favorite colors and style. A perfect keepsake that lasts – great for matching with friends and making memories together.</p>
+    <p>Price: 3$</p>
+    <div class="product-gallery">
+      <a href="#img1"><img src="port1.jpg" alt="1" /></a>
+      <a href="#img2"><img src="port2.jpg" alt="2" /></a>
+      <a href="#img3"><img src="port3.jpg" alt="3" /></a>
+      <a href="#img4"><img src="port4.jpg" alt="4" /></a>
+      <a href="#img5"><img src="port5.jpg" alt="5" /></a>
+      <a href="#img6"><img src="port6.jpg" alt="6" /></a>
+      <a href="#img7"><img src="port7.jpg" alt="7" /></a>
+      <a href="#img8"><img src="port8.jpg" alt="8" /></a>
+      <a href="#img9"><img src="port9.jpg" alt="9" /></a>
+      <a href="#img10"><img src="port10.jpg" alt="10" /></a>
+      <a href="#img11"><img src="port11.jpg" alt="11" /></a>
+      <a href="#img12"><img src="port12.jpg" alt="12" /></a>
+      <a href="#img13"><img src="port13.jpg" alt="13" /></a>
+      <a href="#img14"><img src="port14.jpg" alt="14" /></a>
+      <a href="#img15"><img src="port15.jpg" alt="15" /></a>
+      <a href="#img16"><img src="port16.jpg" alt="16" /></a>
+       <a href="#img17"><img src="port17.jpg" alt="16" /></a>
+        <a href="#img18"><img src="port18.jpg" alt="16" /></a>
+
+    </div>
+  </section>
+
+  <!-- Lightbox popups -->
+  <div id="img1" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="port1.jpg" alt="1" />
+  </div>
+
+  <div id="img2" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="port2.jpg" alt="2" />
+  </div>
+
+  <div id="img3" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="port3.jpg" alt="3" />
+  </div>
+
+  <div id="img4" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="port4.jpg" alt="4" />
+  </div>
+
+  <div id="img5" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="port5.jpg" alt="5" />
+  </div>
+
+  <div id="img6" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="port6.jpg" alt="6" />
+  </div>
+
+  <div id="img7" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="port7.jpg" alt="7" />
+  </div>
+
+  <div id="img8" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="port8.jpg" alt="8" />
+  </div>
+
+
+  <div id="img9" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="port9.jpg" alt="9" />
+  </div>
+
+
+  <div id="img10" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="port10.jpg" alt="10" />
+  </div>
+
+<div id="img11" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="port11.jpg" alt="11" />
+  </div>
+
+  <div id="img12" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="port12.jpg" alt="12" />
+  </div>
+
+  <div id="img13" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="port13.jpg" alt="13" />
+  </div>
+
+  <div id="img14" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="port14.jpg" alt="14" />
+  </div>
+
+  <div id="img15" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="port15.jpg" alt="15" />
+  </div>
+
+  <div id="img16" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="port16.jpg" alt="16" />
+  </div>
+
+  <div id="img17" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="port17.jpg" alt="16" />
+  </div>
+
+  <div id="img18" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="port18.jpg" alt="16" />
+  </div>
+
+
+
+  <footer>
+    &copy; 2025 CresTalat - All rights reserved | Handmade Creativity
+  </footer>
+</body>
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>منتجات CresTalat</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      font-family: 'Cairo', sans-serif;
+      background-color: #f3e6e9;
+      color: #3a2c2c;
+    }
+
+    header {
+      padding: 30px 15px 15px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3.2em;
+      color: #703b3f;
+    }
+
+    .nav-links {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .nav-links a {
+      margin: 0 12px;
+      text-decoration: none;
+      font-size: 1em;
+      color: #703b3f;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      color: #9b5a5a;
+    }
+
+    .name{
+      text-decoration: none;
+      font-size: 1em;
+      color: #703b3f;
+      font-weight: 600;
+    }
+
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 20px;
+      padding: 30px 20px 60px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .product-wrapper {
+      text-align: center;
+    }
+
+    .product-card {
+      background-color: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+    /*box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;*/
+    }
+
+    .product-card:hover {
+      transform: /*translateY(-5px);*/none;
+    }
+
+    .product-card img {
+      width: 100%;
+      height: /*140px;*/ auto;
+      display: block;
+      object-fit: cover;
+    }
+
+    .product-title {
+      margin-top: 8px;
+      font-size: 0.8em;
+      color: #9b5a5a;
+    }
+
+    footer {
+      background: rgba(255, 255, 255, 0.7);
+      padding: 20px;
+      text-align: center;
+      font-size: 0.95em;
+      color: #6b5050;
+      box-shadow: 0 -4px 10px rgba(0,0,0,0.05);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+     <nav class="name">
+      <h1><strong>CresTalat</strong></h1>
+    </nav>
+    <!---<h1>CresTalat</h1>-->
+    <nav class="nav-links">
+      <a href="home.html">Home</a>
+      <a href="contactUs.html">Contact Us</a>
+    </nav>
+   
+  </header>
+
+  <section class="products-grid">
+    <a href="product1-page.html">
+    <div class="product-wrapper">
+      <div class="product-card">
+        <img src="product1.jpg" alt="Expoxy Resin & Hardener">
+      </div>
+      <h3 class="product-title"> Expoxy Resin & Hardener</h3>
+    </div>
+    </a>
+    
+    <a href="product2-page.html">
+    <div class="product-wrapper">
+      <div class="product-card">
+        <img src="product2.jpg" alt="Pearlescent Powder">
+      </div>
+      <h3 class="product-title">Pearlescent Powder</h3>
+    </div>
+    </a>
+
+    <a href="product3-page.html">
+    <div class="product-wrapper">
+      <div class="product-card">
+        <img src="product3.jpg" alt="Fail Flakes For Resin">
+      </div>
+      <h3 class="product-title">Fail Flakes For Resin</h3>
+    </div>
+  </a>
+
+    <a href="product4-page.html">
+    <div class="product-wrapper">
+      <div class="product-card">
+        <img src="product4.jpg" alt="صينية ريزن">
+      </div>
+      <h3 class="product-title">White Dried Pressed Flowers And Leaves</h3>
+    </div>
+    </a>
+
+    <a href="product5-page.html">
+    <div class="product-wrapper">
+      <div class="product-card">
+        <img src="product5.jpg" alt="Natural Dried Pressed Flowers For Resin Molds">
+      </div>
+      <h3 class="product-title">Natural Dried Pressed Flowers For Resin Molds</h3>
+    </div>
+    </a>
+
+    <a href="product6-page.html">
+    <div class="product-wrapper">
+      <div class="product-card">
+        <img src="product6.jpg" alt="Dried Pressed Flowers For Resin Molds">
+      </div>
+      <h3 class="product-title">Dried Pressed Flowers For Resin Molds</h3>
+    </div>
+  </a>
+
+     <a href="product7-page.html">
+    <div class="product-wrapper">
+      <div class="product-card">
+        <img src="product7.jpg" alt="Key Rings">
+      </div>
+      <h3 class="product-title">Key Rings</h3>
+    </div>
+  </a>
+
+   <a href="product8-page.html">
+    <div class="product-wrapper">
+      <div class="product-card">
+        <img src="product8.jpg" alt="Key Rings">
+      </div>
+      <h3 class="product-title">Key Rings</h3>
+    </div>
+  </a>
+ </section>
+    
+  <footer>
+    &copy; 2025 CresTalat - All rights reserved | Handmade Creativity
+  </footer>
+</body>
+</html>

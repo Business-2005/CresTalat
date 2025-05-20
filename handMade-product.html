@@ -1,0 +1,374 @@
+<!--<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>CresTalat - منتجاتنا</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      font-family: 'Cairo', sans-serif;
+      background-color: #f3e6e9;
+      color: #3a2c2c;
+    }
+
+    header {
+      padding: 30px 15px 15px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3.2em;
+      color: #703b3f;
+    }
+
+    .nav-links {
+      margin: 10px 0;
+    }
+
+    .nav-links a {
+      margin: 0 10px;
+      text-decoration: none;
+      font-size: 1em;
+      color: #703b3f;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      color: #9b5a5a;
+    }
+
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 15px;
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .product-card {
+      background-color: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+      text-align: center;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+    }
+
+  /*  .product-card h3 {
+      margin: 10px 5px 5px;
+      font-size: 1em;
+      color: #9b5a5a;
+    }*/
+    .product-card h3 {
+  margin: 8px 5px;
+  font-size: 0.8em;
+  color: #9b5a5a;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+    .product-card p {
+      font-size: 0.9em;
+      color: #6b5050;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: rgba(255, 255, 255, 0.7);
+      padding: 15px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #6b5050;
+      box-shadow: 0 -4px 10px rgba(0,0,0,0.05);
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>CresTalat</h1>
+  <nav class="nav-links">
+    <a href="index.html">الصفحة الرئيسية</a>
+    <a href="#">تواصل معنا</a>
+  </nav>
+</header>
+
+<section class="products-grid">
+  <div class="product-card">
+    <img src="port14.jpg" alt="Resin Product 1">
+    <h3> Round Resin Keychain</h3>
+  </div>
+
+  <div class="product-card">
+    <img src="t3lietBebKbire.jpg" alt="Resin Product 2">
+    <h3>Resin Letter Door Sign</h3>
+  </div>
+
+  <div class="product-card">
+    <img src="harf1.jpg" alt="Resin Product 3">
+    <h3>Mini Resin Letter Keychain</h3>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 CresTalat - جميع الحقوق محفوظة | إبداع يدوي
+</footer>
+
+</body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>CresTalat-Products</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      font-family: 'Cairo', sans-serif;
+      background-color: #f3e6e9;
+      color: #3a2c2c;
+    }
+
+    header {
+      padding: 30px 15px 15px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3.2em;
+      color: #703b3f;
+    }
+
+    .nav-links {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .nav-links a {
+      margin: 0 12px;
+      text-decoration: none;
+      font-size: 1em;
+      color: #703b3f;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      color: #9b5a5a;
+    }
+
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 20px;
+      padding: 30px 20px 60px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .product-wrapper {
+      text-align: center;
+    }
+
+    .product-card {
+      background-color: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+    /*box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;*/
+    }
+
+    .product-card:hover {
+      transform: /*translateY(-5px);*/none;
+    }
+
+    .product-card img {
+      width: 100%;
+      height: /*140px;*/ auto;
+      display: block;
+      object-fit: cover;
+    }
+
+    .product-title {
+      margin-top: 8px;
+      font-size: 0.8em;
+      color: #9b5a5a;
+    }
+
+    footer {
+      background: rgba(255, 255, 255, 0.7);
+      padding: 20px;
+      text-align: center;
+      font-size: 0.95em;
+      color: #6b5050;
+      box-shadow: 0 -4px 10px rgba(0,0,0,0.05);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CresTalat</h1>
+    <nav class="nav-links">
+      <a href="home.html">Home</a>
+      <a href="contactUs.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <section class="products-grid">
+
+    <a href="port-page.html">
+    <div class="product-wrapper">
+      <div class="product-card">
+        <img src="port14.jpg" alt="Round Resin Keychain">
+      </div>
+      <h3 class="product-title"> Round Resin Keychain</h3>
+    </div>
+    </a>
+
+<a href="harf-page.html">   
+    <div class="product-wrapper">
+      <div class="product-card">
+        <img src="harf4.jpg" alt="Mini Resin Letter Keychain">
+      </div>
+      <h3 class="product-title">Mini Resin Letter Keychain</h3>
+    </div>
+</a> 
+
+    <a href="syara-page.html">
+    <div class="product-wrapper">
+      <div class="product-card">
+        <img src="syara2.jpg" alt="Resin Car Charm">
+      </div>
+      <h3 class="product-title">Resin Car Charm</h3>
+    </div>
+</a>
+
+    <a href="t3lietBebKbire-page.html">
+    <div class="product-wrapper">
+      <div class="product-card">
+        <img src="t3lietBebKbire.jpg" alt="Resin Letter Door Sign">
+      </div>
+      <h3 class="product-title">Resin Letter Door Sign</h3>
+    </div>
+</a>
+
+    <a href="mdallae-page.html">
+    <div class="product-wrapper">
+      <div class="product-card">
+        <img src="mdallae2.jpg" alt="Hexagone Resin Keepsake">
+      </div>
+      <h3 class="product-title">Hexagone Resin Keepsake</h3>
+    </div>
+</a>
+
+    <a href="heart-page.html">
+    <div class="product-wrapper">
+      <div class="product-card">
+        <img src="heart1.jpg" alt="Heart Resin Keepsake">
+      </div>
+      <h3 class="product-title">Heart Resin Keepsake</h3>
+    </div>
+</a>
+
+    <a href="saynye-page.html">
+    <div class="product-wrapper">
+      <div class="product-card">
+        <img src="saynye1-1.jpg" alt="Resin Tray & Coaster Set">
+      </div>
+      <h3 class="product-title">Resin Tray & Coaster Set</h3>
+    </div>
+</a>
+
+    <a href="ma3Stand-page.html">
+    <div class="product-wrapper">
+      <div class="product-card">
+        <img src="ma3Stand.jpg" alt="Resin Coaster With Wooden Stylish Stand">
+      </div>
+      <h3 class="product-title">Resin Coaster With Wooden Stylish Stand </h3>
+    </div>
+</a>
+
+    <a href="sa7n-page.html">
+    <div class="product-wrapper">
+      <div class="product-card">
+        <img src="sa7n6.jpg" alt="Resin Circular Coaster">
+      </div>
+      <h3 class="product-title">Resin Circular Coaster</h3>
+    </div>
+    </a>
+
+    <a href="se3a-page.html">
+    <div class="product-wrapper">
+      <div class="product-card">
+        <img src="se3a1.jpg" alt="Resin Wall Clock">
+      </div>
+      <h3 class="product-title">Resin Wall Clock</h3>
+    </div></a>
+
+    <a href="sensal-page.html">
+    <div class="product-wrapper">
+      <div class="product-card">
+        <img src="sensal1.jpg" alt="Resin Necklace With Photo">
+      </div>
+      <h3 class="product-title">Resin Necklace With Photo</h3>
+    </div>
+  </a>
+
+   <a href="sa7nKbir-page.html">
+    <div class="product-wrapper">
+      <div class="product-card">
+        <img src="sa7nKbir2.jpg" alt="Resin Circular Coaster">
+      </div>
+      <h3 class="product-title">Resin Circular Coaster</h3>
+    </div>
+  </a>
+
+   <a href="beb-product.html">
+    <div class="product-wrapper">
+      <div class="product-card">
+        <img src="beb1.jpg" alt="Resin Semi- Circular Coaster">
+      </div>
+      <h3 class="product-title">Resin Semi- Circular Coaster</h3>
+    </div>
+  </a>
+    </section>
+   <footer>
+    &copy; 2025 CresTalat - All rights reserved | Handmade Creativity
+  </footer>
+
+</body>
+  
+</html>

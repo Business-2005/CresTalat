@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>تفاصيل المنتج - CresTalat</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      font-family: 'Cairo', sans-serif;
+      background-color: #f3e6e9;
+      color: #3a2c2c;
+    }
+
+    header {
+      padding: 30px 15px 15px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3.2em;
+      color: #703b3f;
+    }
+
+     .nav-links {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .nav-links a {
+      margin: 0 12px;
+      text-decoration: none;
+      font-size: 1em;
+      color: #703b3f;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      color: #9b5a5a;
+    }
+    .product-details {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    .product-details h2 {
+      margin-bottom: 15px;
+      color: #9b5a5a;
+    }
+
+    .product-details p {
+      margin-bottom: 30px;
+      font-size: 1em;
+      color: #5a4343;
+    }
+
+    .product-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 20px;
+    }
+
+    .product-gallery img {
+      width: 100%;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .product-gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Lightbox styles */
+    .lightbox {
+      display: none;
+      position: fixed;
+      z-index: 999;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .lightbox img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+
+    .lightbox:target {
+      display: flex;
+    }
+
+    .lightbox-close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 2em;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      background: rgba(255, 255, 255, 0.7);
+      padding: 20px;
+      text-align: center;
+      font-size: 0.95em;
+      color: #6b5050;
+      box-shadow: 0 -4px 10px rgba(0,0,0,0.05);
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CresTalat</h1>
+    <nav class="nav-links">
+      <a href="home.html">Home</a>
+      <a href="contactUs.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <section class="product-details">
+    <h2>Resin Tray & Coaster Set</h2>
+    <p>Elegant Resin Tray & Coaster Set <br>
+Add a touch of handcrafted charm to your space with this matching resin set <br>
+ The resin tray (30 cm) and coasters (5 cm each) are designed to complement each other perfectly in both color and style. Ideal for serving drinks, displaying candles, or elevating your table décor, this set combines beauty and functionality with a minimalist, modern touch with your favorite color</p>
+    <p>Price: 40$</p>
+    <div class="product-gallery">
+      <a href="#img1"><img src="saynye1.jpg" alt="تفصيل 1" /></a>
+    </div>
+  </section>
+
+  <div id="img1" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="saynye1.jpg" alt="تفصيل 1" />
+  </div>
+
+  <footer>
+    &copy; 2025 CresTalat - All rights reserved | Handmade Creativity
+  </footer>
+
+</body>
+</html>
